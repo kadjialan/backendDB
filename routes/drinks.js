@@ -11,16 +11,16 @@
  *           description: The name of the drink
  *         description:
  *           type: text
- *           description: The lasttName of the drink
+ *           description: The description of the drink
  *         imageUrl:
  *           type: string
- *           description: The password of the drink
+ *           description: The imageUrl of the drink
  *         recipe:
  *           type: string
- *           description: The firstName of the drink
+ *           description: The recipe of the drink
  *         alcoholic:
  *           type: boolean
- *           description: The password of the drink
+ *           description: The degree of alcohol of the drink
  *       example:
  *         name: heineken
  *         description: Heineken NV (Heineken) is a brewing company that develops, markets and sells alcoholic beverages

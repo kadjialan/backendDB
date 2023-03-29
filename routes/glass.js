@@ -8,10 +8,10 @@
  *       properties:
  *         id:
  *           type: string
- *           description: The auto-generated id of the book
+ *           description: The auto-generated id of the glass
  *         name:
  *           type: string
- *           description: The firstName of the glass
+ *           description: The name of the glass
  *       example:
  *         id: 1
  *         name: small

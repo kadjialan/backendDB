@@ -10,7 +10,7 @@
  *       properties:
  *         id:
  *           type: string
- *           description: The auto-generated id of the book
+ *           description: The auto-generated id of the user
  *         firstName:
  *           type: string
  *           description: The firstName of the user

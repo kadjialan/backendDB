@@ -5,18 +5,16 @@
  *     category:
  *       type: object
  *       required:
- *         - email_address
- *         - password
  *       properties:
  *         id:
  *           type: string
- *           description: The auto-generated id of the book
+ *           description: The auto-generated id of the category
  *         name:
  *           type: string
- *           description: The firstName of the category
+ *           description: The name of the category
  *         description:
  *           type: string
- *           description: The lasttName of the category
+ *           description: The description of the category
  *       example:
  *         id: 1
  *         name: beer

@@ -10,13 +10,13 @@
  *       properties:
  *         id:
  *           type: string
- *           description: The auto-generated id of the book
+ *           description: The auto-generated id of the ingredient
  *         name:
  *           type: string
- *           description: The firstName of the ingredient
+ *           description: The name of the ingredient
  *         description:
  *           type: string
- *           description: The lasttName of the ingredient
+ *           description: The description of the ingredient
  *       example:
  *         id: 1
  *         name: yeast

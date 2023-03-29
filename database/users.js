@@ -18,7 +18,10 @@ const User = sequelize.define(
     phone: DataTypes.STRING,
     apikey: DataTypes.STRING,
     password: DataTypes.STRING,
-    admin: DataTypes.BOOLEAN,
+    admin: {
+      type:DataTypes.BOOLEAN,
+      defaultValue: false,
+    }
   },
   {
     timestamps: true,

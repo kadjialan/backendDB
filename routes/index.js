@@ -3,7 +3,7 @@ const bcrypt = require("bcrypt");
 
 const User = require("../database/users");
 const { signToken } = require("../services/jwt");
-const { authMiddleware } = require("../services/auth");
+const { authMiddleware, authorizeByIsAdmin } = require("../services/auth");
 const router = express.Router();
 
 /* GET home page. */
@@ -35,5 +35,9 @@ router.post("/login", async (req, res) => {
 router.get("/current-user",authMiddleware, (req, res) => {
   res.send(req.user);
 });
+
+/* router.get('/profile',authorizeByIsAdmin, (req,res) => {
+  res.send(req.user)
+}) */
 
 module.exports = router;
